@@ -2,6 +2,7 @@
 
 An AI chatbot for small businesses (clinics, schools, shops). It answers customer questions about timings, doctors, fees and appointments using only the business's own data, in **English, Roman Urdu or Urdu**.
 
+![Chatbot screenshot](screenshot.png)
 
 ## Features
 
