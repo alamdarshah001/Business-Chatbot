@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clinic Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="chat">
+    <header class="chat-header">
+      <div class="avatar">+</div>
+      <div>
+        <h1 id="business-name">Clinic Assistant</h1>
+        <p>Ask about timings, doctors, fees and tests</p>
+      </div>
+    </header>
+
+    <div id="messages" class="messages" aria-live="polite"></div>
+
+    <div class="suggestions" id="suggestions">
+      <button>What are your timings?</button>
+      <button>Which doctors are available?</button>
+      <button>How do I book an appointment?</button>
+    </div>
+
+    <form id="chat-form" class="chat-form" autocomplete="off">
+      <input id="user-input" type="text" placeholder="Type your question..." maxlength="500" required />
+      <button type="submit" id="send-btn">Send</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "businessName": "CarePlus Family Clinic",
+  "type": "clinic",
+  "about": "CarePlus Family Clinic is a family clinic offering general consultation, child care, women's health and basic lab tests.",
+  "address": "Shop 12, Main Boulevard, Sector F-8, Islamabad",
+  "phone": "+92 300 0000000",
+  "whatsapp": "+92 300 0000000",
+  "email": "info@careplusclinic.example",
+  "timings": {
+    "Monday to Saturday": "9:00 AM to 8:00 PM",
+    "Sunday": "Closed (emergency calls only)"
+  },
+  "doctors": [
+    {
+      "name": "Dr. Ayesha Khan",
+      "speciality": "General Physician",
+      "days": "Monday to Saturday",
+      "hours": "9:00 AM to 2:00 PM",
+      "fee": "Rs. 1500"
+    },
+    {
+      "name": "Dr. Imran Ali",
+      "speciality": "Pediatrician (child specialist)",
+      "days": "Monday, Wednesday, Friday",
+      "hours": "4:00 PM to 8:00 PM",
+      "fee": "Rs. 2000"
+    },
+    {
+      "name": "Dr. Sana Malik",
+      "speciality": "Gynecologist",
+      "days": "Tuesday, Thursday, Saturday",
+      "hours": "4:00 PM to 8:00 PM",
+      "fee": "Rs. 2500"
+    }
+  ],
+  "labTests": [
+    { "name": "CBC (Complete Blood Count)", "price": "Rs. 600" },
+    { "name": "Blood Sugar (Random)", "price": "Rs. 200" },
+    { "name": "Lipid Profile", "price": "Rs. 1500" },
+    { "name": "Urine Complete Examination", "price": "Rs. 400" }
+  ],
+  "appointments": "Appointments can be booked by phone or WhatsApp. Walk-ins are accepted but patients with appointments are seen first. Please arrive 10 minutes early.",
+  "payments": "Cash, debit/credit card, Easypaisa and JazzCash are accepted.",
+  "policies": [
+    "Fees are paid at the reception before the consultation.",
+    "Rescheduling is free if you inform us at least 2 hours before the appointment.",
+    "Reports for lab tests are ready within 24 hours."
+  ]
+}
